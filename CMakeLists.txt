@@ -1,7 +1,8 @@
 cmake_minimum_required (VERSION 3.20)
+
 set (CMAKE_CXX_STANDARD 17)
 
-project (shading_example)
+project (rendering_examples)
 
 if(MSVC)
   add_definitions(/DNOMINMAX)
