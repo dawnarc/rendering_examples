@@ -1,0 +1,1 @@
+start ../build/001.ads_reflection/Release/ads_reflection.exe ads
