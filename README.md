@@ -1,2 +1,2 @@
-# ShadingDemo
-Various shading examples
+# Rendering Examples
+Various rendering examples
