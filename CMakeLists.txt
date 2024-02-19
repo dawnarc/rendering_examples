@@ -21,6 +21,4 @@ find_package( OpenGL REQUIRED )
 include_directories( glad/include )
 
 add_subdirectory( glad )
-add_subdirectory( 001.ads_reflection )
-
-# file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/media DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_subdirectory( 01.ads_reflection )
