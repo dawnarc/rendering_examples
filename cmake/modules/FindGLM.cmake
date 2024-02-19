@@ -17,13 +17,13 @@ set( _GLM_HEADER_SEARCH_DIRS
 "/usr/include"
 "/usr/local/include"
 "${CMAKE_SOURCE_DIR}/includes"
-"C:/Program Files (x86)/glm/include" )
+"D:/Program_Filesx86/glm/include" )
 
 set( _GLM_LIB_SEARCH_DIRS
 "/usr/lib"
 "/usr/local/lib"
 "${CMAKE_SOURCE_DIR}/lib"
-"C:/Program Files (x86)/glm/lib" )
+"D:/Program_Filesx86/glm/lib" )
 
 # Check environment for root search directory
 set( _GLM_ENV_ROOT $ENV{GLM_ROOT} )

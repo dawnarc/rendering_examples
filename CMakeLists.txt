@@ -21,4 +21,4 @@ find_package( OpenGL REQUIRED )
 include_directories( glad/include )
 
 add_subdirectory( glad )
-add_subdirectory( 01.ads_reflection )
+add_subdirectory( 01.lighting/01.ads_reflection )
