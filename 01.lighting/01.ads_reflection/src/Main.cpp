@@ -209,6 +209,9 @@ int main(int argc, char* argv[])
     glfwMakeContextCurrent(window);
     //glfwSetKeyCallback(window, key_callback);
 
+    //limit refresh rate (<= display hardware frame rate).
+    glfwSwapInterval(1);
+    
     // Get framebuffer size
     int fbw, fbh;
     glfwGetFramebufferSize(window, &fbw, &fbh);
