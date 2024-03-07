@@ -11,18 +11,7 @@ add_executable(${target} ${CPP_FILES})
 
 # dependencies
 
-find_package( OpenGL REQUIRED )
-include_directories( ${OpenGL_INCLUDE_DIRS} )
-target_link_libraries( ${target} ${OPENGL_gl_LIBRARY} )
-
-find_package( glfw3 REQUIRED )
-include_directories( ${GLFW3_INCLUDE_DIR} )
-target_link_libraries( ${target} ${GLFW3_LIBRARY} )
-
-find_package( glm REQUIRED )
-include_directories( ${GLM_INCLUDE_DIR} )
-
-target_link_libraries(${target} glad)
+target_link_libraries( ${target} glad ${OPENGL_gl_LIBRARY} ${GLFW3_LIBRARY} )
 
 # define
 
