@@ -17,13 +17,13 @@ set( _glew_HEADER_SEARCH_DIRS
 "/usr/include"
 "/usr/local/include"
 "${CMAKE_SOURCE_DIR}/includes"
-"D:/Program_Filesx86/glew/include" )
+"C:/Program Files (x86)/glew/include" )
 
 set( _glew_LIB_SEARCH_DIRS
 "/usr/lib"
 "/usr/local/lib"
 "${CMAKE_SOURCE_DIR}/lib"
-"D:/Program_Filesx86//glew/lib" )
+"C:/Program Files (x86)//glew/lib" )
 
 # Check environment for root search directory
 set( _glew_ENV_ROOT $ENV{glew_ROOT} )
